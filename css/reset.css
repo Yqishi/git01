@@ -1,0 +1,21 @@
+
+body,h1,h2,h3,h4,h5,p,ul,input{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+/**/
+a{
+    text-decoration: none;
+}
+/*清除ie下的边框*/
+img{
+    border: 0px;
+}
+h1,h2,h3,h4{
+    font-size: 100%;
+   
+}

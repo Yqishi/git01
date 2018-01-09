@@ -1,0 +1,341 @@
+body{
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    color: #666666;
+   
+}
+.head_top_top{
+    width: 100%;
+    background: #f7f7f7;
+    border-bottom: 1px solid #dddddd;
+}
+.head_top{
+    padding: 0px;
+    width: 1200px;
+    height:29px;
+    background: #f7f7f7;
+    margin: 0px auto 0;
+    color: #7f7f7f;
+}
+
+.head_one{
+   float: left;
+   line-height: 29px;
+}
+.head_two{
+    float: right;
+    line-height: 29px;
+}
+
+.head_two span{
+    margin: 0px 8px;
+}
+.head_two a{
+    color: #7f7f7f;
+}
+.head_two b{
+    color: #ff8800;
+}
+.head_two em{
+    font-style: normal;
+}
+
+.product_logo{
+    width:1200px;
+    height:115px;
+    margin: 0px auto 0px;
+}
+.product_one{
+    width: 200px;
+    height: 115px;
+   
+}
+.product_logo img{
+    float: left;
+    margin-top:29px;
+    margin-left: 17px;
+}
+.product_two{
+    float: left;
+    width:618px;
+    line-height: 38px;
+    margin: 34px 0 0px 91px;   
+    font-size: 0px;
+   
+    
+}
+.product_logo .product_two .p2{
+    float: left;
+    width: 515px;
+    line-height: 38px;
+    text-indent: 36px;
+    background: url(../images/icons.png) 9px 8px no-repeat #fff;
+    outline:none; 
+    border: 1px solid #39a93e;
+    border-right: 0px;
+}
+
+.product_logo .product_two .p1{
+    float: left;
+    height: 40px;
+    width:102px;
+    border: 0px;
+    font-size: 14px;
+    background: #37ab40;
+    color: #f5faf5;
+    
+}
+.product_three{
+    width:198px;
+    height: 38px;
+    float: left;
+    margin:34px 0px 0px 91px;
+}
+.product_three .p3{
+    float: left;
+    width:158px;
+    height: 38px; 
+    background: url(../images/icons.png) 9px -43px no-repeat #f7f7f7;
+    border: 1px solid #dddddd; 
+    font-size: 14px;
+    color: #37ab40;
+    outline:none;
+}
+.product_three .p4{
+    float: left;
+    width:38px;
+    height: 38px;
+    border: 0px;
+    background: #ff8800;
+    font-size: 18px;
+    color: #ffffff;
+    outline:none;
+}
+.product_daohang{
+    width:1200px;
+    height: 40px;
+    margin: 0px auto 0px;
+}
+.product_daohang .d1{
+    width:200px;
+    height: 40px;
+    background: #37ab40;
+    float: left;
+    font-size: 14px;
+    color: #ffffff;
+    border: 0px;
+}
+.product_daohang span{
+    float: left;
+    font-size: 14px;
+    margin: 10px 22px 0px;
+    color: #666666;
+}
+.product_daohang a{
+    margin: 10px 0 0 0px;
+    float: left;
+    font-size: 14px;
+    color: #666666;
+}
+.product_daohang .d2{
+    margin-left: 35px;
+}
+.body_dada{
+    width: 100%;
+    border-bottom: 2px solid  #39a93e;
+}
+
+.product_image{
+    width:1200px;
+    height: 270px;
+    
+    margin: 0px auto 0px;
+}
+.product_image_h1{
+    width: 198px;
+    height: 269px;
+    background: #f7f7f7;
+    float: left;
+}
+.product_image_h1 li{
+    width: 198px;
+    line-height: 44px;
+    text-align: center;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    background: url(../images/icons.png) 160px -385px no-repeat #fff;
+}
+.product_image_h1 li ul{
+    display: none;
+}
+.product_image_h1 li a{
+    display: block;
+    font-size: 14px;
+    color: #333333;
+    width: 198px;
+    line-height: 44px;
+    background: url(../images/icons.png) 26px -91px no-repeat ;
+}
+.product_image_h1 li .a1{
+    background-position: 26px -138px;
+    
+}
+.product_image_h1 li .a2{ 
+    background-position: 26px -190px;
+}
+.product_image_h1 li .a3{
+    background-position: 30px -239px;
+}
+.product_image_h1 li .a4{
+    background-position: 27px -289px;
+}
+.product_image_h1 li .a5{
+    background-position: 27px -338px;
+}
+.big_box{
+    width: 760px;
+    height: 270px;
+    background: #37ab40;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+.prev{
+    width:15px;
+    height:23px;
+    background:url(../images/icons.png) 0px -451px no-repeat;
+    position:absolute;
+    left:11px;
+    top:122px;
+    cursor:pointer;
+}
+
+.next{
+    width:15px;
+    height:23px;
+    background:url(../images/icons.png) 0px -501px no-repeat;
+    position:absolute;
+    right:11px;
+    top:122px;
+    cursor:pointer;
+}
+.points{
+    height:12px;
+    position:absolute;
+    /* 元素设置定位属性后，元素变成了行内块，如果不设置宽度，宽度等于内容的宽度 */
+    width:100%;
+    left:0px;
+    bottom:9px;
+    text-align:center;
+    /* 去掉li之间的小间隙 */
+    font-size:0px;
+}
+.points li{
+    width:12px;
+    height:12px;
+    background:#9f9f9f;
+    display:inline-block;
+    margin:0px 5px;
+    border-radius:6px;
+    cursor:pointer;
+}
+.points .active{
+    background:#cecece; 
+ }
+.product_image .product_image_h3{
+    font-size: 0px;
+}
+
+.prive_top{
+    width: 1200px;
+    height: 35px;
+    margin: 0px auto 0px;
+    text-align: left;
+}
+.prive_top h3{
+    display: inline-block;
+    margin-top: 8px;
+    text-align: center;
+    font-size: 16px;
+    color: #37ab40;
+}
+.prive_top span{
+    margin: 0px 14px 0px;
+}
+.prive_top a{
+    margin: 0px 6px 0px 0px;
+    color: #666666;
+}
+.prive_top_r1{
+    float: right;
+    line-height: 35px;
+}
+.prive_one{
+    width: 1200px;
+    height: 300px;
+    margin: 0px auto 0px;
+    border-top: 2px solid #42ad46;
+    font-size: 0px;
+}
+.prive_ul{
+    width: 1000px;
+    height: 300px;
+    display: inline-block;
+    
+}
+.prive_one li{
+    width: 248.5px;
+    height: 300px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+.prive_one li:hover{
+    border: 1px solid gold;
+    font-size: 20px;
+}
+.prive_one li img{
+    margin-top: 28px;
+    width: 180px;
+    height: 180px;
+}
+.prive_one li p{
+    width: 249px;
+    margin: 18px 0 0 0px;
+    font-size: 14px;
+    color: #666666;
+    
+}
+.prive_one li span{
+    display: block;
+    font-size: 20px;
+    color: #c40000;
+    margin-top: 15px;
+}
+.button_one{
+    width:100%;
+    border-top: 2px solid #4ab14e;
+    margin-top:30px; 
+}
+.button_two{
+    text-align: center;
+    height: 145px;
+    width: 1200px;
+    margin: 0px auto 0px;
+    color: #4e4e4e;
+}
+.button_two p,b,em{
+    margin-bottom: 15px;
+}
+.button_two p{
+    margin-top: 38px;
+}
+.button_two b{
+    display: block;
+    font-weight: normal;
+}
+.button_two em{
+    display: block;
+    font-style: normal;
+}
